@@ -1,0 +1,73 @@
+$primary: #fecb00;
+$secondary: #222130;
+$branco: #e6e6e6 ;
+
+:root {
+    --rt-color-white: #fff;
+    --rt-color-dark: #222;
+    --rt-color-success: #fecb00;
+    --rt-color-error: #be6464;
+    --rt-color-warning: #f0ad4e;
+    --rt-color-info: #337ab7;
+    --rt-opacity: 0.9;
+    --rt-transition-show-delay: 0.15s;
+    --rt-transition-closing-delay: 0.15s;
+  }
+
+.mainText{
+    color: $branco;
+}
+
+.toolTip{
+    background-color: #fecb00;
+}
+
+.subText{
+    color: #bebebe;
+    width: 80%;
+}
+
+.cardSkill{
+    width: 16%;
+    height: 150px;
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tempXp{
+    color: $branco;
+}
+
+.funcXp{
+    color: #bebebe;
+}
+
+.nomeEmp{
+    color: #fecb00;
+}
+
+.iconSkill path{
+    transition: 0.2s ease;
+}
+
+.iconSkill{
+    background: transparent;
+}
+
+.iconSkill:hover path{
+    fill: #fecb00;
+}
+
+@media (max-width: 991px) {
+    .containerCards{
+        justify-content: center;
+    }
+
+    .cardSkill{
+        width: 25%;
+        height: auto;
+    }
+}

@@ -1,0 +1,91 @@
+$primary: #fecb00;
+$secondary: #222130;
+$branco: #e6e6e6 ;
+
+.rowNav{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.active{
+    color: #fecb00 !important;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.icons{
+    fill: #fff;
+    width: 35px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.bgTranmsp{
+    background-color: transparent;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.footerBar{
+    background-color: rgba(27, 27, 27, 0.747);
+    height: 100px;
+    position: relative;
+    //margin-top: 50px;
+}
+
+.navItens{
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  transition: 0.3s;
+  cursor: pointer;
+}
+  
+.navItens3{
+  display: none;
+  text-decoration: none;
+  color: rgb(139, 139, 139) !important;
+  transition: 0.3s;
+}
+    
+.navLogo{
+    display: flex;
+}
+
+.ponto{
+    color: $primary;
+    font-size: 50px;
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+}
+
+.nome{
+    font-size: 40px;
+    color: $branco;
+    margin: 0;
+}
+
+.ItensNav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ItensNav .rights {
+    color: #e6e6e6;
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .footerBar{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,24 @@
+.container{
+    gap: 50px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.btnSlider{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #18181896;
+    border: 0;
+}
+
+.iconSlider{
+    width: 30px;
+    fill: #fff;
+}
+
+.btnSlider:hover .iconSlider path{
+    fill: #fecb00 !important;
+    transition: 0.2s ease;
+}

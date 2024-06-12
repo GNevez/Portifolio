@@ -1,0 +1,59 @@
+$primary: #fecb00;
+$secondary: #222130;
+$branco: #e6e6e6 ;
+
+.mainText{
+    color: $branco;
+}
+
+.subText{
+    color: #bebebe;
+    width: 80%;
+}
+
+.cardXp{
+    width: 35%;
+    height: 200px;
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tempXp{
+    color: $branco;
+}
+
+.funcXp{
+    color: #bebebe;
+}
+
+.nomeEmp{
+    color: #fecb00;
+}
+
+@media (max-width: 991px) {
+    .contCards{
+        justify-content: center;
+    }
+
+    .cardXp{
+        width: 45%;
+    }
+
+    .cardXp p {
+        display: flex;
+        font-size: 12px;
+        text-align: start;
+    }
+    .cardXp div p{
+        display: flex;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .tempXp{
+        margin: 0;
+    }
+}

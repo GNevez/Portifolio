@@ -1,0 +1,50 @@
+$primary: #fecb00;
+$secondary: #222130;
+$branco: #e6e6e6 ;
+
+.mainText {
+  color: #fecb00;
+}
+
+.subText {
+  color: #bebebe;
+  margin-top: 20px;
+  font-size: 1rem; // Tamanho da fonte padrão
+
+  @media (max-width: 991px) {
+    font-size: 0.9rem; // Ajusta o tamanho da fonte para telas menores
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem; // Ajusta o tamanho da fonte para telas ainda menores
+    margin-top: 15px; // Reduz a margem superior para telas menores
+  }
+
+  @media (max-width: 576px) {
+    font-size: 0.75rem; // Ajusta o tamanho da fonte para telas pequenas
+    margin-top: 10px; // Reduz ainda mais a margem superior para telas pequenas
+  }
+}
+
+.cardAbout {
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 991px) {
+  .cardAbout {
+    margin: auto;
+  }
+  
+  .containerText {
+    flex-direction: column;
+  }
+}

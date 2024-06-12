@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 490px;
+    position: relative;
+  }
+  
+  .motionSvg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 490px;
+    height: 520px;
+    fill: transparent;
+    transform: translate(-50%, -50%);
+}
+
+  
+  .foto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 485px;
+    height: 485px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+  }
+
+  @media (max-width: 550px) {
+    .foto{
+      width: 242px;
+      height: 242px;
+    }
+    .motionSvg{
+      width: 245px;
+      height: 260px;
+    }
+
+    .container{
+      width: 245px;
+      height: 245px;
+    }
+}
+  
