@@ -67,17 +67,37 @@ const Home = () => {
             Minhas principais tecnologias são: React, Angular, Node-js, PHP,
             Typescript, SQL, HTML, CSS, Sass!
           </motion.p>
-          <div className={isMobile ? "d-flex justify-content-center" : ""}>
+          <div
+            className={
+              isMobile
+                ? "d-flex justify-content-center flex-column align-items-center gap-4"
+                : " d-flex gap-4"
+            }
+          >
             <motion.div
               className={style.btnContrate}
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
+              whileTap={{
+                scale: 0.9,
+                transition: { duration: 0, ease: "linear" },
+              }}
               transition={{ delay: 0.8, ease: "backIn" }}
             >
               <Link to="/Contato" className={style.btnCor}>
                 Me Contrate!
               </Link>
             </motion.div>
+            <motion.a
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 1, ease: "backIn" }}
+              className={style.btnCrv}
+              href="../../assets/Curriculo-Guilherme.pdf"
+              download={"Curriculo-Guilherme.pdf"}
+            >
+              Baixar CRV
+            </motion.a>
           </div>
         </div>
         <div

@@ -56,6 +56,20 @@ $branco: #e6e6e6 ;
     color: #222130;
 }
 
+.btnCrv{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: $primary;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #fecb00;
+    height: 30px;
+    align-items: center;
+    transition: 0.1s ease-in; 
+}
 
 @media (max-width: 991px) {
     .container{

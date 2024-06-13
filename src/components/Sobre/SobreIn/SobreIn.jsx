@@ -11,8 +11,7 @@ const SobreIn = () => {
           altamente criativa e produtiva. Com um empenho excepcional, estou
           sempre em busca de novas ideias e soluções inovadoras. Atualmente,
           estou disponível para trabalho como desenvolvedor, pronto para
-          contribuir com minha dedicação e habilidades. Se você procura alguém
-          comprometido e talentoso, sou a pessoa certa para sua equipe!
+          contribuir com minha dedicação e habilidades.
         </p>
       </div>
       <div className={"gap-4 " + style.containerText}>
