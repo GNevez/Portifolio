@@ -7,9 +7,8 @@ const Footer = () => {
   return (
     <>
       <footer className={`${styles.footerBar} container-fluid`}>
-        <div className={`row ${styles.rowNav}`}>
-          <div className="col-lg-4 d-flex text-center align-items-center justify-content-center"></div>
-          <div className={`col-lg-6 align-items-center ${styles.ItensNav}`}>
+        <div className={styles.rowNav}>
+          <div className={`col-lg-12 align-items-center ${styles.ItensNav}`}>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -27,10 +26,6 @@ const Footer = () => {
             </motion.div>
             <p className={styles.rights}>Todos direitos reservados.</p>
           </div>
-
-          <div
-            className={`col-lg-2 justify-content-center gap-5 align-items-center ${styles.social}`}
-          ></div>
         </div>
       </footer>
     </>

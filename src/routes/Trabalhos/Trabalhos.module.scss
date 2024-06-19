@@ -102,10 +102,9 @@ $branco: #e6e6e6 ;
 
 @media (max-width: 991px) {
     .container{
-        top: 40px;
-        position: relative;
-        text-align: center !important;
         background-image: none;
+        height: 100%;
+        margin-top: 20px;
     }
     .leftSide{
         padding-left: 0;
