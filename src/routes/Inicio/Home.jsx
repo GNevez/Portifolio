@@ -3,6 +3,8 @@ import style from "./Home.module.scss";
 import Foto from "../../components/Photo/Foto";
 import { useState, useEffect } from "react";
 
+import portfolio from "../../assets/curriculoGuilherme.pdf";
+
 import { Link } from "react-router-dom";
 
 import { easeInOut, motion } from "framer-motion";
@@ -93,8 +95,8 @@ const Home = () => {
               animate={{ scale: 1 }}
               transition={{ delay: 1, ease: "backIn" }}
               className={style.btnCrv}
-              href="../../assets/Curriculo-Guilherme.pdf"
-              download={"Curriculo-Guilherme.pdf"}
+              href={portfolio}
+              download={"curriculoGuilherme.pdf"}
             >
               Baixar CRV
             </motion.a>
