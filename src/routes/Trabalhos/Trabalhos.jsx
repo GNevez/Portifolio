@@ -18,7 +18,7 @@ import "swiper/css/scrollbar";
 
 import g4 from "../../assets/G4.png";
 import shotz from "../../assets/Shotz.png";
-import imobiliaria from "../../assets/imobiliaria.png";
+import imobiliaria from "../../assets/Imobiliaria.png";
 
 import { Tooltip } from "react-tooltip";
 
