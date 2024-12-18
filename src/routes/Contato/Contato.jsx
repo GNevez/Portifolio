@@ -26,8 +26,8 @@ const Contato = () => {
     };
 
     emailjs
-      .send("service_6w8yoe8", "template_495uzks", templateParams, {
-        publicKey: "VXS47xOGWFmgo95GQ",
+      .send("service_kn3f4pq", "template_495uzks", templateParams, {
+        publicKey: "e1neP2F_FTwfneKsc",
       })
       .then((response) => {
         setIsLoading(false);
@@ -60,7 +60,12 @@ const Contato = () => {
         >
           <div className={style.boxContato}>
             <form onSubmit={handleSubmit} className="h-100">
-              <div className={"d-flex justify-content-center flex-column " + style.contTextos}>
+              <div
+                className={
+                  "d-flex justify-content-center flex-column " +
+                  style.contTextos
+                }
+              >
                 <h3 className={style.mainText}>Vamos trabalhar juntos!</h3>
                 <p className={style.subText}>
                   Me envie um email com sua duvida/proposta/interesse e irei

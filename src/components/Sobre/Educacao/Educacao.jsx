@@ -38,7 +38,7 @@ const Educacao = () => {
             <div className={style.cardXp}>
               <div>
                 <p className={style.nomeEmp}>
-                  Bootcamp Desenvolvimento Full-Stack
+                  Bootcamp Santander Desenvolvimento Full-Stack
                 </p>
               </div>
               <div className="d-flex">
