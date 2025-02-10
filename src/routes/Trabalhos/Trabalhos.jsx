@@ -19,6 +19,7 @@ import "swiper/css/scrollbar";
 import g4 from "../../assets/G4.png";
 import shotz from "../../assets/Shotz.png";
 import imobiliaria from "../../assets/imobiliaria.png";
+import chat from "../../assets/chat.png"
 
 import { Tooltip } from "react-tooltip";
 
@@ -37,7 +38,7 @@ const Trabalhos = () => {
       number: "02",
       name: "Plataforma de jogos",
       desc: "Projeto Full-Stack de criação de salas de jogos competitivo, conta com integração de diversas API's",
-      tech: "Node.js, React js, Sass",
+      tech: "Node.js, React.js, Sass",
       repo: "https://github.com/GNevez/Shotz-Plataforma",
       link: "",
       img: shotz,
@@ -51,6 +52,15 @@ const Trabalhos = () => {
       link: "https://ferrazimo.com.br",
       img: imobiliaria,
     },
+    {
+      number: "04",
+      name: "Chat Service",
+      desc: "Aplicação de Chat Service em tempo real utilizando Web Sockets com autenticação de usuario",
+      tech: "Angular, Node.js, Typescript, Socket.IO, Firebase e Bootstrap",
+      repo: "https://github.com/GNevez/ChatService",
+      link: "",
+      img: chat
+    }
   ];
 
   register();

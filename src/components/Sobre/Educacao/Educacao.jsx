@@ -13,7 +13,7 @@ const Educacao = () => {
               <p className={style.nomeEmp}>
                 Bacharelado Ciencias da Computação
               </p>
-              <p className={style.tempXp}>2022 - Atualmente (2027)</p>
+              <p className={style.tempXp}>2023 - Atualmente (2026)</p>
               <div className="d-flex">
                 <p className={style.nomeEmp}>• </p>
                 <p className={style.funcXp + " mx-2"}>

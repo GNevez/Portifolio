@@ -13,7 +13,7 @@ const Experiencia = () => {
           <div className="col-lg-12 d-flex gap-4 p-0 mb-4">
             <div className={style.cardXp}>
               <p className={style.nomeEmp}>G4 Motocenter</p>
-              <p className={style.tempXp}>2022-2023</p>
+              <p className={style.tempXp}>2023-2024</p>
               <div className="d-flex">
                 <p className={style.nomeEmp}>• </p>
                 <p className={style.funcXp + " mx-2"}>
@@ -26,12 +26,12 @@ const Experiencia = () => {
                 <p className={style.nomeEmp}>Free-Lancer</p>
               </div>
               <div className="d-flex">
-                <p className={style.tempXp}>2021-2022</p>
+                <p className={style.tempXp}>2022-2023</p>
               </div>
               <div className="d-flex">
                 <p className={style.nomeEmp}>• </p>
                 <p className={style.funcXp + " mx-2"}>
-                  Desenvolvimento Web full-stack
+                  Desenvolvimento Web full-stack para empresas e pessoas
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Experiencia = () => {
                 <p className={style.nomeEmp}>Free-Lancer</p>
               </div>
               <div className="d-flex">
-                <p className={style.tempXp}>2020-2021</p>
+                <p className={style.tempXp}>2020-2022</p>
               </div>
               <div className="d-flex">
                 <p className={style.nomeEmp}>• </p>
